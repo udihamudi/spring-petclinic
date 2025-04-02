@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.name }}
+  description: A new Spring Boot application
+  annotations:
+    github.com/project-slug: udihamudi/springboot
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-devops
